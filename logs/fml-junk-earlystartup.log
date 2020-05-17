@@ -1,0 +1,99 @@
+[21:23:03] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[21:23:03] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[21:23:03] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[21:23:13] [Server thread/INFO] [FML]: MinecraftForge v14.21.1.2443 Initialized
+[21:23:15] [Server thread/INFO] [FML]: Replaced 921 ore ingredients
+[21:23:15] [Server thread/DEBUG] [FML]: File C:\Users\alfre\Desktop\server\config\injectedDependencies.json not found. No dependencies injected
+[21:23:15] [Server thread/DEBUG] [FML]: Building injected Mod Containers [net.minecraftforge.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer]
+[21:23:15] [Server thread/DEBUG] [FML]: Attempting to load mods contained in the minecraft jar file and associated classes
+[21:23:15] [Server thread/DEBUG] [FML]: Minecraft is a file at C:\Users\alfre\Desktop\server\forge-1.12-14.21.1.2443-universal.jar, loading
+[21:23:15] [Server thread/DEBUG] [FML]: Minecraft jar mods loaded successfully
+[21:23:15] [Server thread/INFO] [FML]: Found 1 mods from the command line. Injecting into mod discoverer
+[21:23:15] [Server thread/INFO] [FML]: Searching C:\Users\alfre\Desktop\server\mods for mods
+[21:23:15] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file [1.12.2]DamageIndicatorsMod-3.5.1.jar
+[21:23:15] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file backpack-3.0.2-1.12.2.jar
+[21:23:15] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file DivineRPG-1.12.2-1.5.2.jar
+[21:23:15] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file MercuriusUpdater-1.12.jar
+[21:23:15] [Server thread/DEBUG] [FML]: Ignoring unknown file mod_list.json in mods directory
+[21:23:15] [Server thread/DEBUG] [FML]: Examining file forge-1.12-14.21.1.2443-universal.jar for potential mods
+[21:23:15] [Server thread/DEBUG] [FML]: The mod container forge-1.12-14.21.1.2443-universal.jar appears to be missing an mcmod.info file
+[21:23:16] [Server thread/DEBUG] [FML]: Examining file [1.12.2]DamageIndicatorsMod-3.5.1.jar for potential mods
+[21:23:16] [Server thread/TRACE] [FML]: Located mcmod.info file in file [1.12.2]DamageIndicatorsMod-3.5.1.jar
+[21:23:16] [Server thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (DamageIndicatorsMod.DIMod) - loading
+[21:23:16] [Server thread/TRACE] [damageindicatorsmod]: Parsed dependency info : [] [] []
+[21:23:16] [Server thread/DEBUG] [damageindicatorsmod]: Attempting to load the file version.properties from [1.12.2]DamageIndicatorsMod-3.5.1.jar to locate a version number for damageindicatorsmod
+[21:23:16] [Server thread/WARN] [damageindicatorsmod]: Mod damageindicatorsmod is missing the required element 'version' and no fallback can be found. Substituting '1.0'.
+[21:23:16] [Server thread/DEBUG] [FML]: Examining file backpack-3.0.2-1.12.2.jar for potential mods
+[21:23:16] [Server thread/TRACE] [FML]: Located mcmod.info file in file backpack-3.0.2-1.12.2.jar
+[21:23:16] [Server thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (de.eydamos.backpack.Backpack) - loading
+[21:23:16] [Server thread/TRACE] [backpack]: Parsed dependency info : [] [] []
+[21:23:16] [Server thread/DEBUG] [FML]: Examining file DivineRPG-1.12.2-1.5.2.jar for potential mods
+[21:23:16] [Server thread/TRACE] [FML]: Located mcmod.info file in file DivineRPG-1.12.2-1.5.2.jar
+[21:23:16] [Server thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (divinerpg.DivineRPG) - loading
+[21:23:16] [Server thread/WARN] [FML]: Unable to parse dependency string required:forge@[14.23.5.2768,)
+[21:23:16] [Server thread/WARN] [FML]: Zip file DivineRPG-1.12.2-1.5.2.jar failed to read properly, it will be ignored
+net.minecraftforge.fml.common.LoaderException: Unable to parse dependency string required:forge@[14.23.5.2768,)
+
+	at net.minecraftforge.fml.common.Loader.computeDependencies(Loader.java:767) ~[Loader.class:?]
+	at net.minecraftforge.fml.common.FMLModContainer.bindMetadata(FMLModContainer.java:219) ~[FMLModContainer.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.discover(JarDiscoverer.java:97) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.ContainerType.findMods(ContainerType.java:47) [ContainerType.class:?]
+	at net.minecraftforge.fml.common.discovery.ModCandidate.explore(ModCandidate.java:78) [ModCandidate.class:?]
+	at net.minecraftforge.fml.common.discovery.ModDiscoverer.identifyMods(ModDiscoverer.java:138) [ModDiscoverer.class:?]
+	at net.minecraftforge.fml.common.Loader.identifyMods(Loader.java:403) [Loader.class:?]
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:543) [Loader.class:?]
+	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:97) [FMLServerHandler.class:?]
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:331) [FMLCommonHandler.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:122) [nx.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:483) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_241]
+[21:23:16] [Server thread/DEBUG] [FML]: Examining file MercuriusUpdater-1.12.jar for potential mods
+[21:23:16] [Server thread/TRACE] [FML]: Located mcmod.info file in file MercuriusUpdater-1.12.jar
+[21:23:16] [Server thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (net.minecraftforge.mercurius.updater.MercuriusUpdaterMod) - loading
+[21:23:16] [Server thread/TRACE] [mercurius_updater]: Parsed dependency info : [] [] []
+[21:23:16] [Server thread/INFO] [mercurius_updater]: Mod mercurius_updater is missing the required element 'name'. Substituting mercurius_updater
+[21:23:16] [Server thread/INFO] [FML]: Forge Mod Loader has identified 8 mods to load
+[21:23:16] [Server thread/DEBUG] [FML]: Found API divinerpg.api.java.divinerpg.api (owned by divinerpg providing DivineAPI) embedded in divinerpg
+[21:23:16] [Server thread/DEBUG] [FML]: Creating API container dummy for API DivineAPI: owner: divinerpg, dependents: []
+[21:23:16] [Server thread/TRACE] [FML]: Received a system property request ''
+[21:23:16] [Server thread/TRACE] [FML]: System property request managing the state of 0 mods
+[21:23:16] [Server thread/DEBUG] [FML]: After merging, found state information for 0 mods
+[21:23:16] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[21:23:16] [Server thread/DEBUG] [damageindicatorsmod]: Enabling mod damageindicatorsmod
+[21:23:16] [Server thread/DEBUG] [backpack]: Enabling mod backpack
+[21:23:16] [Server thread/DEBUG] [divinerpg]: Enabling mod divinerpg
+[21:23:16] [Server thread/DEBUG] [mercurius_updater]: Enabling mod mercurius_updater
+[21:23:16] [Server thread/WARN] [FML]: Missing English translation for mercurius_updater: assets/mercurius_updater/lang/en_us.lang
+[21:23:16] [Server thread/TRACE] [FML]: Verifying mod requirements are satisfied
+[21:23:16] [Server thread/DEBUG] [FML]: Mod sorting data
+[21:23:16] [Server thread/DEBUG] [FML]: 	damageindicatorsmod(Damage Indicators Mod:1.0): [1.12.2]DamageIndicatorsMod-3.5.1.jar ()
+[21:23:16] [Server thread/DEBUG] [FML]: 	backpack(Backpack:3.0.2): backpack-3.0.2-1.12.2.jar ()
+[21:23:16] [Server thread/DEBUG] [FML]: 	divinerpg(DivineRPG:null): DivineRPG-1.12.2-1.5.2.jar (required:forge@[14.23.5.2768,))
+[21:23:16] [Server thread/DEBUG] [FML]: 	mercurius_updater(mercurius_updater:1.0): MercuriusUpdater-1.12.jar ()
+[21:23:16] [Server thread/WARN] [FML]: Can't revert to frozen GameData state without freezing first.
+[21:23:16] [Server thread/TRACE] [minecraft]: Sending event FMLServerStoppedEvent to mod minecraft
+[21:23:16] [Server thread/TRACE] [minecraft]: Sent event FMLServerStoppedEvent to mod minecraft
+[21:23:16] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Minecraft took 0.002s
+[21:23:16] [Server thread/TRACE] [mcp]: Sending event FMLServerStoppedEvent to mod mcp
+[21:23:16] [Server thread/TRACE] [mcp]: Sent event FMLServerStoppedEvent to mod mcp
+[21:23:16] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Minecraft Coder Pack took 0.001s
+[21:23:16] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod FML
+[21:23:16] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod FML
+[21:23:16] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Forge Mod Loader took 0.001s
+[21:23:16] [Server thread/TRACE] [forge]: Sending event FMLServerStoppedEvent to mod forge
+[21:23:16] [Server thread/TRACE] [forge]: Sent event FMLServerStoppedEvent to mod forge
+[21:23:16] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Minecraft Forge took 0.001s
+[21:23:16] [Server thread/TRACE] [damageindicatorsmod]: Sending event FMLServerStoppedEvent to mod damageindicatorsmod
+[21:23:16] [Server thread/TRACE] [damageindicatorsmod]: Sent event FMLServerStoppedEvent to mod damageindicatorsmod
+[21:23:16] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Damage Indicators Mod took 0.001s
+[21:23:16] [Server thread/TRACE] [backpack]: Sending event FMLServerStoppedEvent to mod backpack
+[21:23:16] [Server thread/TRACE] [backpack]: Sent event FMLServerStoppedEvent to mod backpack
+[21:23:16] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Backpack took 0.001s
+[21:23:16] [Server thread/TRACE] [divinerpg]: Sending event FMLServerStoppedEvent to mod divinerpg
+[21:23:16] [Server thread/TRACE] [divinerpg]: Sent event FMLServerStoppedEvent to mod divinerpg
+[21:23:16] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - DivineRPG took 0.001s
+[21:23:16] [Server thread/TRACE] [mercurius_updater]: Sending event FMLServerStoppedEvent to mod mercurius_updater
+[21:23:16] [Server thread/TRACE] [mercurius_updater]: Sent event FMLServerStoppedEvent to mod mercurius_updater
+[21:23:16] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - mercurius_updater took 0.001s
+[21:23:16] [Server thread/DEBUG] [FML]: Bar Finished: ServerStopped took 0.007s
+[21:23:16] [Server thread/INFO] [FML]: The state engine was in incorrect state CONSTRUCTING and forced into state SERVER_STOPPED. Errors may have been discarded.
