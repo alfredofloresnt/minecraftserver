@@ -1,0 +1,27 @@
+{
+  "divinerpg:root": {
+    "criteria": {
+      "divinerpg": "2020-04-19 02:06:53 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_log": "2020-04-19 02:08:00 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "forest": "2020-04-19 02:07:49 -0500",
+      "plains": "2020-04-19 02:06:53 -0500"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/birch_planks": {
+    "criteria": {
+      "has_log": "2020-04-19 03:26:26 -0500"
+    },
+    "done": true
+  }
+}

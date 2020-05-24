@@ -1,0 +1,14 @@
+{
+  "divinerpg:root": {
+    "criteria": {
+      "divinerpg": "2020-04-29 02:03:03 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "plains": "2020-04-29 02:03:03 -0500"
+    },
+    "done": false
+  }
+}

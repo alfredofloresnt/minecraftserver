@@ -1,0 +1,191 @@
+[07:12:52] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[07:12:52] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[07:12:52] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[07:12:52] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2854 for Minecraft 1.12.2 loading
+[07:12:52] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_252, running on Linux:amd64:5.3.0-1019-aws, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
+[07:12:52] [main/INFO] [FML]: Searching /home/ubuntu/minecraftserver/./mods for mods
+[07:12:52] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[07:12:52] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[07:12:52] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[07:12:52] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[07:12:52] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[07:12:54] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[07:12:54] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[07:12:54] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[07:12:55] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[07:12:55] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[07:12:55] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[07:12:58] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[07:12:58] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2854 Initialized
+[07:12:58] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[07:12:58] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[07:12:59] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
+[07:12:59] [Server thread/INFO] [FML]: Searching /home/ubuntu/minecraftserver/./mods for mods
+[07:12:59] [Server thread/INFO] [FML]: Forge Mod Loader has identified 7 mods to load
+[07:13:00] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[07:13:00] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, backpack, divinerpg, jei] at CLIENT
+[07:13:00] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, backpack, divinerpg, jei] at SERVER
+[07:13:00] [Server thread/ERROR] [FML]: The mod backpack is expecting signature @FINGERPRINT@ for source backpack-3.0.2-1.12.2.jar, however there is no signature matching that description
+[07:13:01] [Server thread/INFO] [divinerpg.DivineRPG]: Creating registries
+[07:13:01] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[07:13:01] [Server thread/INFO] [FML]: Found 2261 ObjectHolder annotations
+[07:13:01] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[07:13:01] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[07:13:01] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[07:13:01] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[07:13:01] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: UP_TO_DATE Target: null
+[07:13:01] [Forge Version Check/INFO] [forge.VersionCheck]: [divinerpg] Starting version check at https://raw.githubusercontent.com/NicosaurusRex99/DivineRPG/1.12.2/divinerpg_update.json
+[07:13:01] [Server thread/INFO] [STDERR]: [divinerpg.utils.attributes.ReflectionHelper:findField:40]: net.minecraftforge.fml.relauncher.ReflectionHelper$UnableToFindFieldException: java.lang.NoSuchFieldException: maximumValue
+[07:13:01] [Server thread/INFO] [STDERR]: [divinerpg.utils.attributes.ReflectionHelper:findField:40]: 	at net.minecraftforge.fml.relauncher.ReflectionHelper.findField(ReflectionHelper.java:134)
+[07:13:01] [Server thread/INFO] [STDERR]: [divinerpg.utils.attributes.ReflectionHelper:findField:40]: 	at divinerpg.utils.attributes.ReflectionHelper.findField(ReflectionHelper.java:32)
+[07:13:01] [Server thread/INFO] [STDERR]: [divinerpg.utils.attributes.ReflectionHelper:findField:40]: 	at divinerpg.utils.attributes.IReflectionHelper.trySetPrivateValue(IReflectionHelper.java:59)
+[07:13:01] [Server thread/INFO] [STDERR]: [divinerpg.utils.attributes.ReflectionHelper:findField:40]: 	at divinerpg.utils.attributes.IReflectionHelper.trySetPrivateValue(IReflectionHelper.java:46)
+[07:13:01] [Server thread/INFO] [STDERR]: [divinerpg.utils.attributes.ReflectionHelper:findField:40]: 	at divinerpg.utils.attributes.AttributeFixer.init(AttributeFixer.java:12)
+[07:13:01] [Server thread/INFO] [STDERR]: [divinerpg.utils.attributes.ReflectionHelper:findField:40]: 	at divinerpg.DivineRPG.preInit(DivineRPG.java:64)
+[07:13:01] [Server thread/INFO] [STDERR]: [divinerpg.utils.attributes.ReflectionHelper:findField:40]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[07:13:01] [Server thread/INFO] [STDERR]: [divinerpg.utils.attributes.ReflectionHelper:findField:40]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[07:13:01] [Server thread/INFO] [STDERR]: [divinerpg.utils.attributes.ReflectionHelper:findField:40]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[07:13:01] [Server thread/INFO] [STDERR]: [divinerpg.utils.attributes.ReflectionHelper:findField:40]: 	at java.lang.reflect.Method.invoke(Method.java:498)
+[07:13:01] [Server thread/INFO] [STDERR]: [divinerpg.utils.attributes.ReflectionHelper:findField:40]: 	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:637)
+[07:13:01] [Server thread/INFO] [STDERR]: [divinerpg.utils.attributes.ReflectionHelper:findField:40]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[07:13:01] [Server thread/INFO] [STDERR]: [divinerpg.utils.attributes.ReflectionHelper:findField:40]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[07:13:01] [Server thread/INFO] [STDERR]: [divinerpg.utils.attributes.ReflectionHelper:findField:40]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[07:13:01] [Server thread/INFO] [STDERR]: [divinerpg.utils.attributes.ReflectionHelper:findField:40]: 	at java.lang.reflect.Method.invoke(Method.java:498)
+[07:13:01] [Server thread/INFO] [STDERR]: [divinerpg.utils.attributes.ReflectionHelper:findField:40]: 	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+[07:13:01] [Server thread/INFO] [STDERR]: [divinerpg.utils.attributes.ReflectionHelper:findField:40]: 	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+[07:13:01] [Server thread/INFO] [STDERR]: [divinerpg.utils.attributes.ReflectionHelper:findField:40]: 	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+[07:13:01] [Server thread/INFO] [STDERR]: [divinerpg.utils.attributes.ReflectionHelper:findField:40]: 	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+[07:13:01] [Server thread/INFO] [STDERR]: [divinerpg.utils.attributes.ReflectionHelper:findField:40]: 	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+[07:13:01] [Server thread/INFO] [STDERR]: [divinerpg.utils.attributes.ReflectionHelper:findField:40]: 	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+[07:13:01] [Server thread/INFO] [STDERR]: [divinerpg.utils.attributes.ReflectionHelper:findField:40]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+[07:13:01] [Server thread/INFO] [STDERR]: [divinerpg.utils.attributes.ReflectionHelper:findField:40]: 	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:219)
+[07:13:01] [Server thread/INFO] [STDERR]: [divinerpg.utils.attributes.ReflectionHelper:findField:40]: 	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:197)
+[07:13:01] [Server thread/INFO] [STDERR]: [divinerpg.utils.attributes.ReflectionHelper:findField:40]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[07:13:01] [Server thread/INFO] [STDERR]: [divinerpg.utils.attributes.ReflectionHelper:findField:40]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[07:13:01] [Server thread/INFO] [STDERR]: [divinerpg.utils.attributes.ReflectionHelper:findField:40]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[07:13:01] [Server thread/INFO] [STDERR]: [divinerpg.utils.attributes.ReflectionHelper:findField:40]: 	at java.lang.reflect.Method.invoke(Method.java:498)
+[07:13:01] [Server thread/INFO] [STDERR]: [divinerpg.utils.attributes.ReflectionHelper:findField:40]: 	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+[07:13:01] [Server thread/INFO] [STDERR]: [divinerpg.utils.attributes.ReflectionHelper:findField:40]: 	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+[07:13:01] [Server thread/INFO] [STDERR]: [divinerpg.utils.attributes.ReflectionHelper:findField:40]: 	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+[07:13:01] [Server thread/INFO] [STDERR]: [divinerpg.utils.attributes.ReflectionHelper:findField:40]: 	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+[07:13:01] [Server thread/INFO] [STDERR]: [divinerpg.utils.attributes.ReflectionHelper:findField:40]: 	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+[07:13:01] [Server thread/INFO] [STDERR]: [divinerpg.utils.attributes.ReflectionHelper:findField:40]: 	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+[07:13:01] [Server thread/INFO] [STDERR]: [divinerpg.utils.attributes.ReflectionHelper:findField:40]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+[07:13:01] [Server thread/INFO] [STDERR]: [divinerpg.utils.attributes.ReflectionHelper:findField:40]: 	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:136)
+[07:13:01] [Server thread/INFO] [STDERR]: [divinerpg.utils.attributes.ReflectionHelper:findField:40]: 	at net.minecraftforge.fml.common.Loader.preinitializeMods(Loader.java:629)
+[07:13:01] [Server thread/INFO] [STDERR]: [divinerpg.utils.attributes.ReflectionHelper:findField:40]: 	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:99)
+[07:13:01] [Server thread/INFO] [STDERR]: [divinerpg.utils.attributes.ReflectionHelper:findField:40]: 	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:333)
+[07:13:01] [Server thread/INFO] [STDERR]: [divinerpg.utils.attributes.ReflectionHelper:findField:40]: 	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:125)
+[07:13:01] [Server thread/INFO] [STDERR]: [divinerpg.utils.attributes.ReflectionHelper:findField:40]: 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486)
+[07:13:01] [Server thread/INFO] [STDERR]: [divinerpg.utils.attributes.ReflectionHelper:findField:40]: 	at java.lang.Thread.run(Thread.java:748)
+[07:13:01] [Server thread/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:635]: Caused by: java.lang.NoSuchFieldException: maximumValue
+[07:13:01] [Server thread/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:635]: 	at java.lang.Class.getDeclaredField(Class.java:2070)
+[07:13:01] [Server thread/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:635]: 	at net.minecraftforge.fml.relauncher.ReflectionHelper.findField(ReflectionHelper.java:125)
+[07:13:01] [Server thread/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:635]: 	... 41 more
+[07:13:01] [Server thread/WARN] [divinerpg]: Can't patch max mob health
+[07:13:02] [Forge Version Check/INFO] [forge.VersionCheck]: [divinerpg] Found status: OUTDATED Target: 1.12.2-1.6.2.1
+[07:13:02] [Server thread/INFO] [divinerpg]: Registering DivineRPG blocks
+[07:13:02] [Server thread/INFO] [FML]: Applying holder lookups
+[07:13:02] [Server thread/INFO] [FML]: Holder lookups applied
+[07:13:02] [Server thread/INFO] [divinerpg]: Registering DivineRPG items
+[07:13:02] [Server thread/INFO] [divinerpg]: Registering DivineRPG block items
+[07:13:02] [Server thread/INFO] [Backpack]: Loading items...
+[07:13:02] [Server thread/INFO] [Backpack]: 15 item features loaded.
+[07:13:02] [Server thread/INFO] [divinerpg]: Registering DivineRPG armor
+[07:13:02] [Server thread/INFO] [divinerpg]: Registering DivineRPG tools
+[07:13:02] [Server thread/INFO] [divinerpg]: Registering DivineRPG weapons
+[07:13:02] [Server thread/INFO] [FML]: Applying holder lookups
+[07:13:02] [Server thread/INFO] [FML]: Holder lookups applied
+[07:13:02] [Server thread/INFO] [divinerpg]: Registering armor descriptions
+[07:13:03] [Server thread/INFO] [FML]: Applying holder lookups
+[07:13:03] [Server thread/INFO] [FML]: Holder lookups applied
+[07:13:03] [Server thread/INFO] [FML]: Applying holder lookups
+[07:13:03] [Server thread/INFO] [FML]: Holder lookups applied
+[07:13:03] [Server thread/INFO] [FML]: Injecting itemstacks
+[07:13:03] [Server thread/INFO] [FML]: Itemstack injection complete
+[07:13:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[07:13:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[07:13:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
+[07:13:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[07:13:03] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
+[07:13:03] [Server thread/INFO] [Backpack]: Loading recipes...
+[07:13:03] [Server thread/INFO] [Backpack]: 15 recipe features loaded.
+[07:13:03] [Server thread/INFO] [FML]: Applying holder lookups
+[07:13:03] [Server thread/INFO] [FML]: Holder lookups applied
+[07:13:03] [Server thread/INFO] [divinerpg]: Registering custom triggers
+[07:13:03] [Server thread/INFO] [FML]: Injecting itemstacks
+[07:13:03] [Server thread/INFO] [FML]: Itemstack injection complete
+[07:13:03] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 7 mods
+[07:13:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[07:13:03] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[07:13:04] [Server thread/INFO] [FML]: Applying holder lookups
+[07:13:04] [Server thread/INFO] [FML]: Holder lookups applied
+[07:13:04] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@5802ed62)
+[07:13:04] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 540 advancements
+[07:13:04] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@5802ed62)
+[07:13:04] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@5802ed62)
+[07:13:04] [Server thread/INFO] [FML]: Loading dimension 420 (world) (net.minecraft.server.dedicated.DedicatedServer@5802ed62)
+[07:13:04] [Server thread/INFO] [FML]: Loading dimension 421 (world) (net.minecraft.server.dedicated.DedicatedServer@5802ed62)
+[07:13:04] [Server thread/INFO] [FML]: Loading dimension 422 (world) (net.minecraft.server.dedicated.DedicatedServer@5802ed62)
+[07:13:04] [Server thread/INFO] [FML]: Loading dimension 423 (world) (net.minecraft.server.dedicated.DedicatedServer@5802ed62)
+[07:13:04] [Server thread/INFO] [FML]: Loading dimension 424 (world) (net.minecraft.server.dedicated.DedicatedServer@5802ed62)
+[07:13:05] [Server thread/INFO] [FML]: Loading dimension 425 (world) (net.minecraft.server.dedicated.DedicatedServer@5802ed62)
+[07:13:05] [Server thread/INFO] [FML]: Loading dimension 426 (world) (net.minecraft.server.dedicated.DedicatedServer@5802ed62)
+[07:13:05] [Server thread/INFO] [FML]: Loading dimension 427 (world) (net.minecraft.server.dedicated.DedicatedServer@5802ed62)
+[07:13:05] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[07:13:06] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 13%
+[07:13:07] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class net.minecraft.entity.passive.EntityBat from class divinerpg.objects.entities.entity.vanilla.EntityRainbour
+[07:13:07] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:cow that already exists with UUID 03750baa-17df-4fb3-8939-2881a2129930
+[07:13:07] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:cow that already exists with UUID c17fe98d-ef5b-45b2-9bbb-9a0149767216
+[07:13:07] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:cow that already exists with UUID 63554985-b8b0-4b88-8208-9017617f34d9
+[07:13:07] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:cow that already exists with UUID 86daf039-7373-4af9-9332-f81e111f7703
+[07:13:07] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:cow that already exists with UUID 9ba8977a-ae10-417e-9a9f-19bb83fd175f
+[07:13:07] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:cow that already exists with UUID f94a2b67-eac7-4ca9-ad97-8cfe31df0fd1
+[07:13:07] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:cow that already exists with UUID 1aa80ade-c75e-425c-84b9-0bbb601276db
+[07:13:07] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 51%
+[07:13:07] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:creeper that already exists with UUID 96f673a2-ee5e-4284-9e08-3e076125f949
+[07:13:07] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:bat that already exists with UUID df83f619-0b5d-4ce3-8264-5549e962b38b
+[07:13:07] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:cow that already exists with UUID a9ae0bbb-5d4c-4988-87a4-4c7c3d683e28
+[07:13:07] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:cow that already exists with UUID cb700b63-f25e-4394-8d4a-746bda613167
+[07:13:07] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:cow that already exists with UUID 7d53a2eb-c5e5-4461-a887-26fe05d323a0
+[07:13:07] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:cow that already exists with UUID 59ca09d0-6ce6-49a2-9ebc-c688cc48ae68
+[07:13:07] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:cow that already exists with UUID a64993fa-433f-4f3a-b9bd-1e8fe2820945
+[07:13:07] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:cow that already exists with UUID 6015e1bf-98ff-4e5a-91c0-0fa8ae889b39
+[07:13:07] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:cow that already exists with UUID 2dfc2f78-6cd6-489c-a070-949e3659838e
+[07:13:07] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:cow that already exists with UUID d585fffa-8dac-4830-92b2-cb57ee628a41
+[07:13:07] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID 4f54a250-6f6d-402a-a812-f41ebd245d9f
+[07:13:07] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID b833b183-8d03-49d0-818c-1be85d4a80b3
+[07:13:07] [Netty Epoll Server IO #1/INFO] [FML]: Disconnecting Player: Server is still starting! Please wait before reconnecting.
+[07:13:07] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID c7fe89a9-dcef-402b-a5c3-fce6dae59401
+[07:13:08] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID f9a6c58b-f7d9-4742-80da-306ea7963ef7
+[07:13:08] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (4.328s)! For help, type "help" or "?"
+[07:13:08] [Server thread/INFO] [FML]: Unloading dimension -1
+[07:13:08] [Server thread/INFO] [FML]: Unloading dimension 1
+[07:13:08] [Server thread/INFO] [FML]: Unloading dimension 420
+[07:13:08] [Server thread/INFO] [FML]: Unloading dimension 421
+[07:13:08] [Server thread/INFO] [FML]: Unloading dimension 422
+[07:13:08] [Server thread/INFO] [FML]: Unloading dimension 423
+[07:13:08] [Server thread/INFO] [FML]: Unloading dimension 424
+[07:13:08] [Server thread/INFO] [FML]: Unloading dimension 425
+[07:13:08] [Server thread/INFO] [FML]: Unloading dimension 426
+[07:13:08] [Server thread/INFO] [FML]: Unloading dimension 427
+[07:13:12] [User Authenticator #1/INFO] [net.minecraft.server.network.NetHandlerLoginServer]: UUID of player popostrus is 89b7945e-693f-4ecf-abc7-e957315a4ece
+[07:13:12] [Netty Epoll Server IO #3/INFO] [FML]: Client protocol version 2
+[07:13:12] [Netty Epoll Server IO #3/INFO] [FML]: Client attempting to join with 11 mods : minecraft@1.12.2,damageindicatorsmod@1.0,FML@8.0.99.99,forge@14.23.5.2847,inventorytweaks@1.63+release.109.220f184,backpack@3.0.2,divinerpg@1.12.2-1.6.1,xaerominimap@20.7.1,mcp@9.42,xaerominimap_core@1.12.2-1.0,jei@4.15.0.293
+[07:13:13] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[07:13:13] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: popostrus[/189.159.33.161:51474] logged in with entity id 595 at (125.93604333716358, 72.0, 314.2818617417783)
+[07:13:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: popostrus joined the game
+[07:13:17] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@5802ed62)
+[07:13:18] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class net.minecraft.entity.projectile.EntityArrow from class divinerpg.objects.entities.entity.projectiles.EntityDivineArrow
+[07:13:19] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: popostrus moved too quickly! -108.43604333716358,4.0,-269.3458184046147
+[07:13:31] [Server thread/INFO] [FML]: Unloading dimension -1
+[07:13:31] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: popostrus moved too quickly! 108.81381482260089,-4.0,268.58931992597496
+[07:13:39] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: popostrus lost connection: Disconnected
+[07:13:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: popostrus left the game
+[07:13:48] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Stopping the server
+[07:13:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[07:13:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[07:13:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[07:13:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/overworld
+[07:13:48] [Server thread/INFO] [FML]: Unloading dimension 0
+[07:13:48] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
