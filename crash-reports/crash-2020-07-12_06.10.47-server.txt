@@ -1,0 +1,68 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  llibrary (llibrary-core-1.0.11-1.12.2.jar)
+  iceandfire (iceandfire-1.9.1-1.12.2.jar)
+Contact their authors BEFORE contacting forge
+
+// Surprise! Haha. Well, this is awkward.
+
+Time: 7/12/20 6:10 AM
+Description: Exception in server tick loop
+
+Missing Mods:
+	unknown : need any: have missing
+
+Missing Mods:
+	unknown : need [7.6.0.1,): have missing
+
+net.minecraftforge.fml.common.MultipleModsErrored
+	at net.minecraftforge.fml.common.Loader.sortModList(Loader.java:300)
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:572)
+	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:98)
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:333)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:125)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Linux (amd64) version 5.3.0-1019-aws
+	Java Version: 1.8.0_252, Private Build
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Private Build
+	Memory: 1366439352 bytes (1303 MB) / 1515192320 bytes (1445 MB) up to 3817865216 bytes (3641 MB)
+	JVM Flags: 2 total; -Xms1024M -Xmx4G
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2854 13 mods loaded, 13 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State | ID               | Version      | Source                                      | Signature                                |
+	|:----- |:---------------- |:------------ |:------------------------------------------- |:---------------------------------------- |
+	| L     | minecraft        | 1.12.2       | minecraft.jar                               | None                                     |
+	| L     | mcp              | 9.42         | minecraft.jar                               | None                                     |
+	| L     | FML              | 8.0.99.99    | forge-1.12.2-14.23.5.2854.jar               | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| L     | forge            | 14.23.5.2854 | forge-1.12.2-14.23.5.2854.jar               | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| L     | biomesoplenty    | 7.0.1.2444   | Biomes-O-Plenty-Mod-1.12.2.jar              | None                                     |
+	| L     | galacticraftcore | 4.0.2.220    | Galacticraft-Mod-1.12.2.jar                 | None                                     |
+	| L     | iceandfire       | 1.9.1        | iceandfire-1.9.1-1.12.2.jar                 | None                                     |
+	| L     | jei              | 4.15.0.293   | jei_1.12.2-4.15.0.293.jar                   | None                                     |
+	| L     | mocreatures      | 12.0.5       | Mo-Creatures-Mod-1.12.2.jar                 | None                                     |
+	| L     | treecapitator    | 1.43.0       | TreeCapitator-Mod-1.12.2.jar                | None                                     |
+	| L     | twilightforest   | 3.8.689      | twilightforest-1.12.2-3.8.689-universal.jar | None                                     |
+	| L     | llibrary         | 1.7.19       | llibrary-1.7.19-1.12.2.jar                  | None                                     |
+	| L     | jurassicraft     | 2.1.23       | JurassiCraft-1.12.2-2.1.23.jar              | None                                     |
+
+	Loaded coremods (and transformers): 
+llibrary (llibrary-core-1.0.11-1.12.2.jar)
+  net.ilexiconn.llibrary.server.core.plugin.LLibraryTransformer
+  net.ilexiconn.llibrary.server.core.patcher.LLibraryRuntimePatcher
+iceandfire (iceandfire-1.9.1-1.12.2.jar)
+  com.github.alexthe666.iceandfire.patcher.IceAndFireRuntimePatcher
+	Profiler Position: N/A (disabled)
+	Is Modded: Definitely; Server brand changed to 'fml,forge'
+	Type: Dedicated Server (map_server.txt)
